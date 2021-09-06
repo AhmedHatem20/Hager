@@ -1,0 +1,139 @@
+
+/* start header section  */
+.header{
+    text-align: center;
+    background-image: linear-gradient(to right ,  #14915738,#32328f4d ),url(../img/glass.jpg);
+    background-size: cover;
+    height: 600px;
+    background-color: rgb(109, 207, 109);
+}
+
+.header img {
+    height: 100px;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: cursive;
+    color: #fff !important;
+    margin-right: 10px;
+    
+}
+.text-header h2{
+    margin-top: 7%;
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 1.8;
+    color: #fff;
+    margin-bottom: 45px;
+
+}
+
+@media only screen and (max-width:768px){
+    .header {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .text-header h2{
+        font-size: 23px;
+        margin-top: 19%;
+        line-height: 2;
+    }
+}
+
+
+
+/* end header section  */
+/* start about section  */
+.text-clinic{
+    text-align: center;
+    font-family: cursive;
+}
+/* end about section  */
+/* start system section  */
+.system{
+    background-color: rgb(57, 164, 206);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.system .card{
+    background-color: #fff;
+    padding: 20px;
+}
+.system h2 {
+    margin-bottom: 30px;
+}
+
+.system img {
+    width: 83%;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:768px){
+    .system{
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+    .system .card{
+        margin-bottom: 30px;
+    }
+    .footer1 .img-fluid{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* end footer section  */
+/* start links section  */
+.text-lg-start{
+    background-color:rgb(4, 100, 4)!important;
+    color: white !important;
+}
+
+
+/* end links section  */
+
+
+/* start section clinic  */
+
+.clinic img {
+    max-width: 78%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* end section clinic  */
+
+
+
+/* start section footer1  */
+
+.footer1{
+    margin-bottom: 50px;
+}
+
+.footer1 .img-fluid {
+
+    max-width: 63%;
+
+}
+
+
+/* end section footer 1  */
+
+
+/* start section footer2  */
+
+.footer2 .img-fluid{
+    max-width: 60%;
+}
+.footer2 h3 {
+    margin-bottom: 20px;
+}
+
+
+
+/* end section footer 2  */
